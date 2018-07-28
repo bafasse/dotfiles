@@ -1,0 +1,52 @@
+!urxvt --help 2>&1 | grep full 
+
+URxvt.font: xft:Inconsolata:pixelsize=22
+URxvt.scrollBar: false
+URxvt.letterSpace: 1
+URxvt*imLocale: en_US.UTF-8
+URxvt*termname: rxvt-unicode-256color
+
+! True transparency
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+
+! For fake transparency
+!URxvt*transparent: true
+!URxvt*shading: 80
+!URxvt.blurRadius: 80X80
+
+! With Base16-Builder
+URxvt*background:                     #000000
+URxvt*foreground:                     #c0c0c0
+URxvt*cursorColor:                    #c0c0c0
+
+URxvt*scrollColor:                    #c0c0c0
+URxvt*highlightColor:                 #404040
+URxvt*highlightTextColor:             #808080
+
+URxvt*color0:                         #000000
+URxvt*color1:                         #dd0907
+URxvt*color2:                         #1fb714
+URxvt*color3:                         #fbf305
+URxvt*color4:                         #0000d3
+URxvt*color5:                         #4700a5
+URxvt*color6:                         #02abea
+URxvt*color7:                         #c0c0c0
+URxvt*color8:                         #808080
+URxvt*color9:                         #dd0907
+URxvt*color10:                        #1fb714
+URxvt*color11:                        #fbf305
+URxvt*color12:                        #0000d3
+URxvt*color13:                        #4700a5
+URxvt*color14:                        #02abea
+URxvt*color15:                        #ffffff
+
+URxvt*color16:                        #ff6403
+URxvt*color17:                        #90713a
+URxvt*color18:                        #404040
+URxvt*color19:                        #404040
+URxvt*color20:                        #808080
+URxvt*color21:                        #c0c0c0
+
+URxvt.perl-ext-common: fullscreen
+URxvt.keysym.F11: perl:fullscreen:switch
