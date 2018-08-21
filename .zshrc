@@ -100,7 +100,10 @@ source $ZSH/oh-my-zsh.sh
 
 alias gcl='git clone'
 alias wifi='sudo iwconfig wlp1s0 power off'
-alias off='shutdown now'
+alias off='killall chromium && shutdown now'
+alias restart='killall chromium && reboot'
+
+# VS Code folder
 alias vsjava='code ~/git/Programming-Practice/Java'
 alias vskotlin='code ~/git/Programming-Practice/Kotlin'
 alias vsperl='code ~/git/Programming-Practice/Perl'
@@ -109,6 +112,12 @@ alias vspython='code ~/git/Programming-Practice/Python'
 alias vsweb='code ~/git/Web-Development'
 alias vscpptokotlin='code ~/git/C++ToKotlin'
 alias vselectron='code ~/git/Electron'
+
 alias syu='sudo pacman -Syu'
 alias lighton='gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true'
 alias lightoff='gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled false'
+
+# Accessing servers
+alias turing='ssh bafasse@turing.csce.uark.edu'
+alias church='ssh bafasse@church.csce.uark.edu'
+alias vlsi='ssh bafasse@VLSI.csce.uark.edu'
