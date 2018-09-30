@@ -100,8 +100,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias gcl='git clone'
 alias wifi='sudo iwconfig wlp1s0 power off'
-alias off='killall chromium && shutdown now'
-alias restart='killall chromium && reboot'
+alias off='killall TeamViewer.exe && killall chromium && shutdown now'
+alias restart='killall TeamViewer.exe && killall chromium && reboot'
 
 # VS Code folder
 alias vsjava='code ~/git/Programming-Practice/Java'
